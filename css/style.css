@@ -6,7 +6,7 @@
 
 .button-apple {
   background-color: white;
-  border: none;
+  border: black;
   color: black;
 }
 
@@ -23,8 +23,21 @@
   border-radius: 50%;
 }
 
-.row>* {
-  margin: 2rem;  
+.dark-background {
+  background-color: black;
+  border: black;
+}
+.btn-outline-primary {
+  border-color: black;
+  color: black;
+}
+.dark-header {
+  background-color: black;
+  color: white;
+}
+
+.border-card {
+  border-color: black;
 }
 
 @keyframes gradient-animation {
@@ -53,5 +66,8 @@
 @media(max-width: 991px) {
   .container {
     padding-block-end: 3rem;
+  }
+  .mobile-centered >* {
+    justify-content: center;
   }
 }
