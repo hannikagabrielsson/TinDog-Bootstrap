@@ -19,6 +19,14 @@
   margin-inline-end: 5px;
 }
 
+.pebbles-image {
+  border-radius: 50%;
+}
+
+.row>* {
+  margin: 2rem;  
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
